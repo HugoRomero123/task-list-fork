@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mainContainer {
+    justify-items: center;
+}
+
+#inputContainer {
+    margin-bottom: 10px;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding: 10px;
+    border-width: 2px;
+    height: 35px;
+}
+p, button, s {
+    border-style: solid;
+    border-radius: 6px;
+    border-width: 1px;
+}
+s {
+    
+}
+
+.completeButton {
+    
+}
+
+button {
+    height: 27px;
+    margin: auto;
+    font-size: 15px;
+    transition-duration: 0.3s;
+}
+button:hover {
+    transition-duration: 0.5s;
+    background-color: rgb(197, 197, 197);
+    cursor: pointer;
+}
+
+p, s {
+    width: 290px;
+    font-size: 18px;
+    padding-left: 5px;
+    height: 27px;
+    align-content: center;
+}
+
+#taskText {
+    overflow-x: auto;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#inputContainer {
+    display: flex;
+    column-gap: 10px;
+}
+input {
+    width: 211px;
+    padding: 5px;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+}
